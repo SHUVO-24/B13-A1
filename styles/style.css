@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.inter-fonts{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+/* shared styles */
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255,255,255,1);
+    padding: 14px 18px;
+    background-color: rgba(70, 145, 101, 1);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.banner-btn-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.banner-container .banner-btn {
+    /* background-color: none; */
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 12px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+
+}
+.btn:hover {
+    background-color: rgb(53, 116, 78);
+}
+
+/* navbar style */
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .option-bar {
+    display: flex;
+    gap: 32px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+}
+nav li{
+    list-style: none;
+}
+
+/* banner section start */
+
+#banner {
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    /* max-width: 1366px; */
+    
+    height: 570px;
+    background-size: cover;
+}
+.banner-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 115px 120px 170px 120px;
+    /* border: 1px solid salmon; */
+}
+
+.banner-container .early-access {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0 auto;
+    gap: 6px;
+    /* border: 1px solid salmon; */
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 1000px;
+    padding: 8px 12px 8px 12px;
+    font: 16px;
+    font-weight: 500;
+    color: rgba(70, 145, 101, 1);
+    margin-bottom: 16px;
+}
+
+.early-access img {
+    width: 16px;
+    height: 16px;
+}
+
+.banner-container h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+.banner-container .green {
+    color: rgba(48, 184, 104, 1);
+}
+
+.banner-container .banner-description {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
