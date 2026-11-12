@@ -117,3 +117,59 @@ nav li{
     line-height: 30px;
     margin-bottom: 30px;
 }
+
+/* note sectoin start */
+#notes .note-container {
+    width: 85%;
+    max-width: 1190px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.note-container h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(0,25,49,1);
+    padding-top: 40px;
+    margin-bottom: 16px;
+}
+
+.note-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(98,115,130,1);
+    margin-bottom: 44px;
+}
+
+.note-container .note-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.note-info {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+
+.note-container .note-box .note-info img {
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    padding: 12px 12px;
+    margin-bottom: 16px;
+}
+
+.note-info h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(0, 25, 49, 1);
+    margin-bottom: 16px;
+}
+
+.note-info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(98, 115, 130, 1);
+}
