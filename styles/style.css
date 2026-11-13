@@ -119,9 +119,12 @@ nav li{
 }
 
 /* note sectoin start */
+#notes {
+    margin-bottom: 100px;
+}
 #notes .note-container {
     width: 85%;
-    max-width: 1190px;
+    max-width: 1140px;
     margin: 0 auto;
     text-align: center;
 }
@@ -178,10 +181,10 @@ nav li{
 
 #brain .brain-container {
     width: 85%;
-    max-width: 1140px;
+    max-width: 1190px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-evenly; */
     align-items: center;
     gap: 60px;
     margin-bottom: 120px;
@@ -216,3 +219,33 @@ nav li{
     margin-bottom: 20px;
     
 }
+
+/* challenge part */
+#challenge .challenge-container {
+    width: 85%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(247, 246, 242, 1);
+    border-radius: 12px;
+    padding: 60px 40px;
+    margin-bottom: 120px;
+}
+.challenge-container .challenge-content h2{
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(0, 25, 49, 1);
+    margin-bottom: 16px;
+}
+
+.challenge-content p{
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+
+
